@@ -1,0 +1,9 @@
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Common\bin\Release\ACST.AWS.Common.dll
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Common\bin\Release\ACST.AWS.Common.pdb
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Common\bin\Release\Newtonsoft.Json.dll
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Common\bin\Release\Newtonsoft.Json.xml
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Common\obj\Release\ACST.AWS.Common.csprojAssemblyReference.cache
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Common\obj\Release\ACST.AWS.Common.csproj.CoreCompileInputs.cache
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Common\obj\Release\ACST.AWS.Common.csproj.CopyComplete
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Common\obj\Release\ACST.AWS.Common.dll
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Common\obj\Release\ACST.AWS.Common.pdb

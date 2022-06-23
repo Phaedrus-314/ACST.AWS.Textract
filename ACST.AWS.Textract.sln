@@ -1,0 +1,118 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AWSSolution", "AWSSolution", "{DFC6A36C-E594-48AB-A4F0-36A64B77EDBE}"
+	ProjectSection(SolutionItems) = preProject
+		Amazon Web Services General .txt = Amazon Web Services General .txt
+		AWS Notes.txt = AWS Notes.txt
+		Cleanup.txt = Cleanup.txt
+		NeedForProd.txt = NeedForProd.txt
+		Notes.txt = Notes.txt
+		Nuget Packages.txt = Nuget Packages.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACST.AWS.TextractClaimMapper", "ACST.AWS.TextractClaimMapper\ACST.AWS.TextractClaimMapper.csproj", "{1196EF48-E81F-436B-8FB3-FA4358B4CC67}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACST.AWS.TransferUtility", "ACST.AWS.TransferUtility\ACST.AWS.TransferUtility.csproj", "{D95F6449-21EE-41B2-B59E-3327882D2379}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACST.AWS.Common", "ACST.AWS.Common\ACST.AWS.Common.csproj", "{B978B080-64B8-4A77-82D4-5C69BC339106}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACST.AWS.Textract", "ACST.AWS.Textract\ACST.AWS.Textract.csproj", "{9B7884BB-0694-437E-AC9B-C30F2DA91F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACST.AWS.Data", "ACST.AWS.Data\ACST.AWS.Data.csproj", "{D1D87B80-D5AB-4799-8B59-668D23B42F51}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACST.AWS.TextractViewer", "ACST.AWS.TextractViewer\ACST.AWS.TextractViewer.csproj", "{48236329-6225-4D30-BD7F-DFF728ED86D7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Signed_Nuget_Packages", "Signed_Nuget_Packages", "{AA60E867-AFC9-4351-BD52-F3FDDB5CE12F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddressParser", "Signed_Nuget_Packages\AddressParser\AddressParser\AddressParser.csproj", "{837B7237-6C6E-4B4A-8A2F-6439CD55D5B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FuzzySharp", "Signed_Nuget_Packages\FuzzySharp-master\FuzzySharp\FuzzySharp.csproj", "{D603AD6F-94E6-4D12-BC2C-8B9DC0B4A62D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NameParser", "Signed_Nuget_Packages\NameParserSharp-master\NameParser\NameParser\NameParser.csproj", "{E3609393-49CA-4971-A3A5-BA260384B552}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ACST.AWS.TextractViewer.Setup", "ACST.AWS.TextractViewer.Setup\ACST.AWS.TextractViewer.Setup.vdproj", "{F6BCDB18-108E-4DFB-93D7-DD0703F917B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACST.AWS.AutomationConsole", "ACST.AWS.AutomationConsole\ACST.AWS.AutomationConsole.csproj", "{14EF9498-498F-48A7-8B67-DBC812DB5E52}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ACST.AWS.AutomationConsole.Setup", "ACST.AWS.AutomationConsole.Setup\ACST.AWS.AutomationConsole.Setup.vdproj", "{290B11CE-D624-4F4D-AB09-C6D8F08BAA6F}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "ACST.AWS.TextractMapper.Setup", "ACST.AWS.TextractMapper.Setup\ACST.AWS.TextractMapper.Setup.vdproj", "{C0782D8B-99B0-4959-9236-41F49F73C977}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlatFileParser", "FFParser\FlatFileParser.csproj", "{84E2D8E8-C7D1-443F-9021-DDDF425E8EA2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1196EF48-E81F-436B-8FB3-FA4358B4CC67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1196EF48-E81F-436B-8FB3-FA4358B4CC67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1196EF48-E81F-436B-8FB3-FA4358B4CC67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1196EF48-E81F-436B-8FB3-FA4358B4CC67}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D95F6449-21EE-41B2-B59E-3327882D2379}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D95F6449-21EE-41B2-B59E-3327882D2379}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D95F6449-21EE-41B2-B59E-3327882D2379}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D95F6449-21EE-41B2-B59E-3327882D2379}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B978B080-64B8-4A77-82D4-5C69BC339106}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B978B080-64B8-4A77-82D4-5C69BC339106}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B978B080-64B8-4A77-82D4-5C69BC339106}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B978B080-64B8-4A77-82D4-5C69BC339106}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B7884BB-0694-437E-AC9B-C30F2DA91F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B7884BB-0694-437E-AC9B-C30F2DA91F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B7884BB-0694-437E-AC9B-C30F2DA91F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B7884BB-0694-437E-AC9B-C30F2DA91F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D87B80-D5AB-4799-8B59-668D23B42F51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D87B80-D5AB-4799-8B59-668D23B42F51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D87B80-D5AB-4799-8B59-668D23B42F51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D87B80-D5AB-4799-8B59-668D23B42F51}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48236329-6225-4D30-BD7F-DFF728ED86D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48236329-6225-4D30-BD7F-DFF728ED86D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48236329-6225-4D30-BD7F-DFF728ED86D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48236329-6225-4D30-BD7F-DFF728ED86D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{837B7237-6C6E-4B4A-8A2F-6439CD55D5B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{837B7237-6C6E-4B4A-8A2F-6439CD55D5B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{837B7237-6C6E-4B4A-8A2F-6439CD55D5B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{837B7237-6C6E-4B4A-8A2F-6439CD55D5B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D603AD6F-94E6-4D12-BC2C-8B9DC0B4A62D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D603AD6F-94E6-4D12-BC2C-8B9DC0B4A62D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D603AD6F-94E6-4D12-BC2C-8B9DC0B4A62D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D603AD6F-94E6-4D12-BC2C-8B9DC0B4A62D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3609393-49CA-4971-A3A5-BA260384B552}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3609393-49CA-4971-A3A5-BA260384B552}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3609393-49CA-4971-A3A5-BA260384B552}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3609393-49CA-4971-A3A5-BA260384B552}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6BCDB18-108E-4DFB-93D7-DD0703F917B2}.Debug|Any CPU.ActiveCfg = Debug
+		{F6BCDB18-108E-4DFB-93D7-DD0703F917B2}.Release|Any CPU.ActiveCfg = Release
+		{14EF9498-498F-48A7-8B67-DBC812DB5E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14EF9498-498F-48A7-8B67-DBC812DB5E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14EF9498-498F-48A7-8B67-DBC812DB5E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14EF9498-498F-48A7-8B67-DBC812DB5E52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{290B11CE-D624-4F4D-AB09-C6D8F08BAA6F}.Debug|Any CPU.ActiveCfg = Debug
+		{290B11CE-D624-4F4D-AB09-C6D8F08BAA6F}.Debug|Any CPU.Build.0 = Debug
+		{290B11CE-D624-4F4D-AB09-C6D8F08BAA6F}.Release|Any CPU.ActiveCfg = Release
+		{290B11CE-D624-4F4D-AB09-C6D8F08BAA6F}.Release|Any CPU.Build.0 = Release
+		{C0782D8B-99B0-4959-9236-41F49F73C977}.Debug|Any CPU.ActiveCfg = Debug
+		{C0782D8B-99B0-4959-9236-41F49F73C977}.Debug|Any CPU.Build.0 = Debug
+		{C0782D8B-99B0-4959-9236-41F49F73C977}.Release|Any CPU.ActiveCfg = Release
+		{C0782D8B-99B0-4959-9236-41F49F73C977}.Release|Any CPU.Build.0 = Release
+		{84E2D8E8-C7D1-443F-9021-DDDF425E8EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E2D8E8-C7D1-443F-9021-DDDF425E8EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E2D8E8-C7D1-443F-9021-DDDF425E8EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E2D8E8-C7D1-443F-9021-DDDF425E8EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{837B7237-6C6E-4B4A-8A2F-6439CD55D5B7} = {AA60E867-AFC9-4351-BD52-F3FDDB5CE12F}
+		{D603AD6F-94E6-4D12-BC2C-8B9DC0B4A62D} = {AA60E867-AFC9-4351-BD52-F3FDDB5CE12F}
+		{E3609393-49CA-4971-A3A5-BA260384B552} = {AA60E867-AFC9-4351-BD52-F3FDDB5CE12F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7A258916-4B4D-4556-9407-B4D8ADF3926E}
+	EndGlobalSection
+EndGlobal

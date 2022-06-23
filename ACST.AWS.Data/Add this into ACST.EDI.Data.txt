@@ -1,0 +1,2 @@
+﻿
+We can get rid og this and just use Automation EF data access or keep seperate like was done here for development.

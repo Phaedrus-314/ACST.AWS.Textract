@@ -1,0 +1,519 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ACST.AWS.TextractViewer.exe" version="1.7.0.7" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="Resources\TranslateDocument_16x.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ACST.AWS.TextractViewer" version="1.5.0.0" publicKeyToken="1994948A2410F794" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ACST.AWS.TextractViewer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACST.AWS.Common.dll" size="51712">
+      <assemblyIdentity name="ACST.AWS.Common" version="1.5.0.0" publicKeyToken="1994948A2410F794" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>LducM23JWv61PkP8Viav8eny4IqEnKqujKg+dmPReSQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACST.AWS.Data.dll" size="10240">
+      <assemblyIdentity name="ACST.AWS.Data" version="1.5.0.0" publicKeyToken="1994948A2410F794" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xqyNxP91BN7HNpMZ/LtNpszfiNzdWsYfOKEnEHMEGjU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACST.AWS.Textract.dll" size="71168">
+      <assemblyIdentity name="ACST.AWS.Textract" version="1.5.0.0" publicKeyToken="1994948A2410F794" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>DzbgsCU7MeDwtjyqFkEMl4xw6a20zhI0wzEde2GHRog=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACST.AWS.TextractClaimMapper.dll" size="173568">
+      <assemblyIdentity name="ACST.AWS.TextractClaimMapper" version="1.5.0.0" publicKeyToken="1994948A2410F794" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>a4BXebya3eTukdarJe4JnbKWrSvId0S/bi1/G1nKcTs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACST.AWS.TextractViewer.exe" size="169984">
+      <assemblyIdentity name="ACST.AWS.TextractViewer" version="1.5.0.0" publicKeyToken="1994948A2410F794" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OZQ1txGH+DOnpaFSZWs48hp/8FRy+WoB8ZJV1+rmcCE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ACST.AWS.TransferUtility.dll" size="12800">
+      <assemblyIdentity name="ACST.AWS.TransferUtility" version="1.5.0.0" publicKeyToken="1994948A2410F794" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>zqE+CQWEe5R9d4SzEyhFI9ZMvO6nY0aXCH4RnrQpnOc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AWSSDK.Core.dll" size="1136640">
+      <assemblyIdentity name="AWSSDK.Core" version="3.3.0.0" publicKeyToken="885C28607F98E604" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>A9w4au4qYm11vvN2Qwx7X2vr1J807oaKP6jNLUoywk8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AWSSDK.S3.dll" size="665600">
+      <assemblyIdentity name="AWSSDK.S3" version="3.3.0.0" publicKeyToken="885C28607F98E604" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>JeTjGigh6VGyoEJ/D4H95GrkgH7W2gARMp0vm++MeRg=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AWSSDK.Textract.dll" size="62464">
+      <assemblyIdentity name="AWSSDK.Textract" version="3.3.0.0" publicKeyToken="885C28607F98E604" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>aOSr1Yo0Xff7DArOray58hTGOtbcrT4DFRsdi2TAc6U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cyotek.Windows.Forms.ImageBox.dll" size="74240">
+      <assemblyIdentity name="Cyotek.Windows.Forms.ImageBox" version="1.2.0.0" publicKeyToken="58DAA28B0B2DE221" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>/kT0CvxowYLQ1ji6Y7d8qZTtIMwZs2FARjgljWunTu4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="FuzzySharp.dll" size="44032">
+      <assemblyIdentity name="FuzzySharp" version="1.0.4.0" publicKeyToken="1994948A2410F794" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>s35w2/YXwObUI6xwslTiSYlYu2auMA1WiEPaXy+IBUI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="NameParser.dll" size="28160">
+      <assemblyIdentity name="NameParser" version="1.4.0.0" publicKeyToken="1994948A2410F794" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>njJ2h96plIbloQ4e9/yCn7IC39bZPvTNr8Uo3+ZMNpM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="700336">
+      <assemblyIdentity name="Newtonsoft.Json" version="12.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>f5ErKKB8Im4L46z7L1fwUFOKugEA+h8L8sOfGh8dqBQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="USAddress.dll" size="38912">
+      <assemblyIdentity name="USAddress" version="1.0.0.0" publicKeyToken="1994948A2410F794" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hPLSQWUbgX5ww35/Pp5+AQGMiMRTmswB5i8vQMjypa4=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ACST.AWS.TextractViewer.exe.config" size="7348">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XtTkI/nsVSug9aUX7pl88M5BdvSSadHzT2kdoIG72tQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ConnectionStringsDev.xml" size="377" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0DMOkssHq56s6dnn0CLb0qq8RS+pXGI7i2LK/xiwymk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ConnectionStringsProd.xml" size="369" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>m8PyZ3Bvq5m/sujBo/3iPUjvMZlldANNql/7pG7zPjw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NamedCoordinatesData\CMSNamedCoordinates.xml" size="36723" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>iuWBk52KG08DZ9D4uJ5+ksnNjmIpCxqdnMNRbq2+Lko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NamedCoordinatesData\NamedCoordinates_ADA2006 - Copy.xml" size="61099" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vq2RMMEuFEufxlFf3baCLzgdtN9koCVHUO7k3jJ3vqo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NamedCoordinatesData\NamedCoordinates_ADA2006.xml" size="76704" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>8KacBmugTSbXR9hxiQeuK+u6m8FMCF9A/fXr5AQL7Ts=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NamedCoordinatesData\NamedCoordinates_ADA2006_old.xml" size="18905" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>cgMSeJAKlVO0y9T/+K/AybBlcTJdt5LKSob4C+tfW10=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NamedCoordinatesData\NamedCoordinates_ADA2012.xml" size="78248" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>g1lfZci51ahyX+ceBW9hnFWd8oF7lf3OohalGIUIsE4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="NamedCoordinatesData\NamedCoordinates_ADA2019 - Copy.xml" size="57705" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>c+uNMHDMxE5vCN+I2W3dVNttPzGItGL7ZVKeesG4V+Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Back_Forward.png" size="3744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RCHOmfIygHw34thKC4xFzmGjqxCBVP/B03mjidZZfo8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\CollapseLeft_md_16x.png" size="262">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>d1MMZJHT8PQnWGBteAR58Xd2L40oyHfr3dTxJ6hGFVo=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\control.png" size="396">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RS3iQaq6I9vs3BMBguB2X3s6tNSCwFefLOSw/ZU1sGU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\control-180.png" size="385">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>/6BDY72l311XI2U6ej6mjTsS90iyzTdTPJcD7JCtVgs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\control-double.png" size="499">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KZv0W2gxplpndk0RwOdgrbrRoAvzdncpl0vsrqhIduI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\control-double-180.png" size="479">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>PvaJCxoKoyoQ5NxJn8tTgRJ6U73rjbd7TiJT2cwOO5Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\document-pdf.png" size="653">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XJFGNP2nfQ3GDWewASX/3LNho4Wlgtrkpbyxx1GVhTU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Expander_16x.png" size="401">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Q6osiHLfe5MpHxpV6Lhn1o5XMgUwy88f+63PZezpSL0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\ExpandRight_md_16x.png" size="266">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rvUfC6kPWF8We7j1XLxxjsf3hz3aiNKuaXTAeJ6+BI0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\GoLtrHS.png" size="750">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>XVILb+352IttsjNV0apvvHM8zL9XrrFkk6GD+1GFo3Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\GoRtlHS.png" size="744">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>vNs8LDkTSozwvXaC/a1RJA19IEb3BN7RGv5JcAb9fLY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\image-resize-actual.png" size="616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>yQIVg2m66776z3whIxqmhCtG6L1gFrRLB/gcmReHpyY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\magnifier-zoom.png" size="676">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>htIJCp9DL4GHOCDDCJ9niYMwDq7YcMHpiCiG2gB/TL8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\magnifier-zoom-fit.png" size="726">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>JwV5mwjceJoDzm9rSGdgosWdLXHkCYMZq8Gk1uRpQ3c=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\magnifier-zoom-in.png" size="733">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>6MSHb+gZhUMm41aXu+76jcIo7UNTNbUqgyFHgv+MAM8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\magnifier-zoom-out.png" size="707">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>wHLeCVd//vLfPr+MXqiYA5POZtTCbwq0ge9+wgB9rcc=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Object Position.ico" size="318">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>RHjbF/CvW9O0pp6DapE/hQmAdHUPG4ARj9Jq+BIhqa4=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\Object Size.ico" size="318">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>z7O6AkbylbjM6p9aYhFkZVphh57VjIIJHQq6umcHyxI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\OutlinedRectangleTool_16x.png" size="133">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>hc2vMjQlVpZTRGwOGq31b9e8uoc8sW6PUazutn/Pnk8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\PickCursor_16x.png" size="266">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dHHsueGDohwsxawA1g050xyjDqBZCq7ZM869A0rhE98=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\TranslateDocument_16x.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uWKLbSIigReY1FzeFZvTz4dSa5k/BH7TMl6IEjx8g0A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\TranslateDocument_16x.png" size="396">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gkpdg8zp5Q060mxy7S7hLPtxbdbdK6r+o7xu0KI5Lek=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\TwoColumns_16x.png" size="137">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>9zYs8QK0DoEflq8OjN+p2g5R9E6I8nvs/UJnooDLVaQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\TwoRows_16x.png" size="134">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>7pdZu0OsKMbCpjf7oQbHsvwt8ZBpYKUnx1RN3bcPJ/g=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\zone.png" size="416">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>4Qs0nZ8H9sw4gzHTV9lmxVsN4f2ygCv9w5432GZpFHg=</dsig:DigestValue>
+    </hash>
+  </file>
+</asmv1:assembly>

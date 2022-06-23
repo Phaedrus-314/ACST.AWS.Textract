@@ -1,0 +1,21 @@
+
+
+Copt ADA 2012 to 2016 adjust coords
+
+Validation on export with collecion of errors for user to fix
+
+finish map with text size limits
+
+
+PayeeEIN BillingDentist_EIN
+InsuredLastName Subscriber_NameAndAddr
+InsuredDOB Subscriber_DOB
+InsuredID Subscriber_ID
+
+PatientLastName Patient_NameAndAddr
+PatientDOB Patient_DOB
+PatientAccountNO Patient_ID
+
+TotalChargeAmount Services_TotalFee
+
+

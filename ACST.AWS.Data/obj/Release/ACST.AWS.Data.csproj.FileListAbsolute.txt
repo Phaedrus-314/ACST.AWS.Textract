@@ -1,0 +1,11 @@
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\bin\Release\ACST.AWS.Data.dll
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\bin\Release\ACST.AWS.Data.pdb
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\bin\Release\ACST.AWS.Common.dll
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\bin\Release\Newtonsoft.Json.dll
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\bin\Release\ACST.AWS.Common.pdb
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\bin\Release\Newtonsoft.Json.xml
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\obj\Release\ACST.AWS.Data.csprojAssemblyReference.cache
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\obj\Release\ACST.AWS.Data.csproj.CoreCompileInputs.cache
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\obj\Release\ACST.AWS.Data.csproj.CopyComplete
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\obj\Release\ACST.AWS.Data.dll
+H:\SourceCode\ACST\_Textract_new\ACST.AWS.Data\obj\Release\ACST.AWS.Data.pdb

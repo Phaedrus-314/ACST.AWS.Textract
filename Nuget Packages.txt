@@ -1,0 +1,11 @@
+
+Microsoft.CodeAnalysis.VersionCheckAnalyzer
+
+AWSSDK.S#
+AWSSDK.Textract
+Newtonsoft.json
+
+Install-Package AWSSDK.Core -Version 3.3.104.1
+Install-Package AWSSDK.S3 -Version 3.3.109.1
+Install-Package AWSSDK.Textract -Version 3.3.102.1
+Install-Package Newtonsoft.Json -Version 12.0.3

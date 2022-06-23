@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<connectionStrings>
+    <add name="EdiContext" connectionString="Data Source=ACST-DEV2\SQL2008;Initial Catalog=ACST_EDI;Integrated Security=True;Pooling=False" />
+    <add name="CamsContext" connectionString="Data Source=ACST-DEV2\SQL2008;Initial Catalog=ACST_CAMS;Integrated Security=True;Pooling=False" />
+</connectionStrings>

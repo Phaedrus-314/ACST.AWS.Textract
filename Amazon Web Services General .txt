@@ -1,0 +1,26 @@
+
+AmazonSDK:
+
+Javascript:
+https://docs.aws.amazon.com/AWSJavaScriptSDK/latest/AWS/Textract.html
+.Net:
+https://docs.aws.amazon.com/sdkfornet/v3/apidocs/Index.html
+
+configuration
+https://docs.aws.amazon.com/sdk-for-net/v2/developer-guide/net-dg-config-creds.html
+
+move some parts to app.config
+
+things to learn:
+configuration
+
+credentials
+
+
+
+
+
+Textract API Reference:
+
+https://docs.aws.amazon.com/textract/latest/dg/API_Reference.html
+

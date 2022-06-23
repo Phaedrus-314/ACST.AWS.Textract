@@ -1,0 +1,9 @@
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/Phaedrus-314/ACST.AWS.Textract.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+user.email=57583703+Phaedrus-314@users.noreply.github.com

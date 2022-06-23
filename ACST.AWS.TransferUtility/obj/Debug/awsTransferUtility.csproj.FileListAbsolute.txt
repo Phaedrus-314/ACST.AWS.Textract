@@ -1,0 +1,17 @@
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\awsTransferUtility.exe.config
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\awsTransferUtility.exe
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\awsTransferUtility.pdb
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\AWSSDK.Core.dll
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\AWSSDK.S3.dll
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\AWSSDK.Core.pdb
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\AWSSDK.Core.xml
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\AWSSDK.S3.pdb
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\AWSSDK.S3.xml
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\obj\Debug\awsTransferUtility.csprojAssemblyReference.cache
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\obj\Debug\awsTransferUtility.csproj.CopyComplete
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\obj\Debug\awsTransferUtility.exe
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\obj\Debug\awsTransferUtility.pdb
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\ACST.AWS.Common.dll
+C:\Users\Phaed\source\repos\ACST\awsTransferUtility\bin\Debug\ACST.AWS.Common.pdb

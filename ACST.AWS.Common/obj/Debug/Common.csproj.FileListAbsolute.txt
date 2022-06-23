@@ -1,0 +1,4 @@
+C:\Users\Phaed\source\repos\ACST\Common\bin\Debug\AWS.Common.dll
+C:\Users\Phaed\source\repos\ACST\Common\bin\Debug\AWS.Common.pdb
+C:\Users\Phaed\source\repos\ACST\Common\obj\Debug\AWS.Common.dll
+C:\Users\Phaed\source\repos\ACST\Common\obj\Debug\AWS.Common.pdb

@@ -1,0 +1,6 @@
+
+Remove ACST Textract Mapper setup
+
+FlatFileParser not used in textract
+
+I spent a too much time on the interface instead of finding a solution in AWS

@@ -1,0 +1,25 @@
+
+Cool.  So, to my Q way below.  Can we make the mapper split out to two folders?  One for 
+ClaimsNeedingReview and one for ClaimsWithConfidence?  Then can you make the Viewer have a toolbar 
+button to just dump all ClaimsWithConfidence straight into BTS without having to review them? 
+
+For setting confidence levels...where is that done?  Is it done by hacking a bunch of behind the scenes
+names coodinates files?  Can it just be a simple screen added to the GUI that they can change anytime 
+they want?  We want to make this as easily “user” configurable as we can so they don’t have to keep 
+harassing us for things they can do themselves.  And, if things aren’t “easy” they won’t do it…LOL.
+
+I know the viewer knows what fields are mandatory, because it makes you fix them.  Can you add another 
+“REQ” column to the bottom fields grids that contains an asterisk for required fields so they can 
+visually see as they go thru rather than waiting until the end to clean them up.  Also, when there
+are no errors it tells you about success on saving.  But, if there were any errors before that it
+still displays error msg and (I think) doesn’t tell you it was a successful save after fixing them.
+
+ PROVIDER MATCH: 
+Another Q from the girls.  What is your logic for matching Dental providers when EdiAutomation runs.  
+It needs to get the FeeTier (tblProviderGroups) when xferring to claims.  
+It needs to try to find a Cigna Dental (or, not NonPar) provider and feetier 1st, then 
+try NonPar (Blank Group), then lastly create any missing ones as NonPar.
+
+Auto approve folder
+Needs approval folder
+
