@@ -119,9 +119,9 @@ For a quick deploy to a new development PC, create .aws folder under users profi
 >
 > **aws_access_key_id** = AKIAWR2KGYNH6VBS6E5I
 >
-> **aws_secret_access_key** = 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
+> **aws_secret_access_key** = IuiETe0oRuqewuKpYl/ZZZZZZZZZZ
 >
-> **toolkit_artifact_guid** = a4aa6408-f5cb-4712-be40-4def8c489e7c
+> **toolkit_artifact_guid** = a4aa6408-f5cb-4712-xxxx-dddddddd
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
