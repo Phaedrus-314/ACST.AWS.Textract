@@ -22,12 +22,19 @@ ACST AWS Textract Claims processing utilities
 ## Git Notes
 
 ```git
+after git init and github repository creation, get private no-response email address and configure local reposity to use it instead of personal email address.
+```
+
+
+```git
 git init
 git remote add origin https://github.com/Phaedrus-314/ACST.AWS.Textract.git
 git remote -v
 git add .
 git commit -m "initial commit"
 git push origin master
+
+git config --local --list
 ```
 
 <!-- ABOUT THE PROJECT -->
@@ -117,11 +124,11 @@ For a quick deploy to a new development PC, create .aws folder under users profi
 >
 > **[default]**
 >
-> **aws_access_key_id** = AKIAWR2KGYNH6VBS6E5I
+> **aws_access_key_id** = AKIAWRXXXXXXXXXXXI
 >
-> **aws_secret_access_key** = IuiETe0oRuqewuKpYl/n4qOArVlW4MdstZe2qplV
+> **aws_secret_access_key** = IuiETe0oXXXXXpYl/n4qOxxxxxxxZe2qplV
 >
-> **toolkit_artifact_guid** = a4aa6408-f5cb-4712-be40-4def8c489e7c
+> **toolkit_artifact_guid** = xxxxxx-f5cb-4712-be40-zzzzzzzz
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
